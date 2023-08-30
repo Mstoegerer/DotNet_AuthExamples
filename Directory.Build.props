@@ -1,0 +1,12 @@
+﻿<Project>
+    <ItemGroup>
+        <Content Include="..\Shared\appsettings.Development.json">
+            <Link>appsettings.Development.json</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="..\Shared\appsettings.json">
+            <Link>appsettings.json</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
